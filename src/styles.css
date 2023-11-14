@@ -1,0 +1,99 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+.main {
+  width: 54vh;
+  height: 60vh;
+  display: grid;
+  /* grid-template-columns: 60px 60px 60px 60px;
+  grid-template-rows: 60px 60px 60px 60px; */
+  padding: 0;
+  grid-template-areas:
+    "di di di di"
+    "a b c d"
+    "e f g h"
+    "i j k l"
+    "m n o p"
+    "q q r s";
+  margin: auto;
+}
+.item {
+  border: 1.5px solid rgb(205, 203, 199);
+  grid-template-columns: 60px 60px 60px 60px;
+  grid-template-rows: 60px 60px 60px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  font-weight: bold;
+  background-color: rgb(234, 233, 231);
+  cursor: pointer;
+}
+.result {
+  grid-area: di;
+  grid-template-rows: 40px 40px 40px 40px;
+  color: white;
+  background-color: rgb(155, 155, 155);
+}
+.sym {
+  background-color: rgb(234, 127, 19);
+}
+.ac {
+  grid-area: a;
+}
+.plmi {
+  grid-area: b;
+}
+.rem {
+  grid-area: c;
+}
+.div {
+  grid-area: d;
+}
+.sev {
+  grid-area: e;
+}
+.eight {
+  grid-area: f;
+}
+.nine {
+  grid-area: g;
+}
+.star {
+  grid-area: h;
+}
+.four {
+  grid-area: i;
+}
+.five {
+  grid-area: j;
+}
+.six {
+  grid-area: k;
+}
+.min {
+  grid-area: l;
+}
+.three {
+  grid-area: m;
+}
+.two {
+  grid-area: n;
+}
+.one {
+  grid-area: o;
+}
+.plus {
+  grid-area: p;
+}
+.zero {
+  grid-area: q;
+}
+.dot {
+  grid-area: r;
+}
+.equal {
+  grid-area: s;
+  display: ;
+}
